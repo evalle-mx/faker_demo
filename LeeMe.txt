@@ -1,0 +1,17 @@
+
+##############################################################################################################
+##   https://www.mongodb.com/developer/products/mongodb/seed-database-with-fake-data/
+##   How to Seed a MongoDB Database with Fake Data
+##   > Loads data (timeSeries) into a new collection, using MongoClient
+##   faker mongodb dotenv
+##############################################################################################################
+$ npm init -y
+$ npm install dotenv faker mongodb
+
+
+
+##############################################################################################################
+##   https://dev.to/cameronblandford/seeding-mongo-with-realistic-records-using-faker-509j
+##   Loads users and Post into a new collection, using MongoClient and lodash for RELATIONSHIP on previous data
+##   Users have n Posts (each post relates to one User existant)
+##############################################################################################################
